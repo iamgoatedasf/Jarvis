@@ -47,7 +47,7 @@ The libraries required to be installed are:
   
   # For the wake word of porcupine
   - you need to sign in to Picovoice Consule and get an API key
-  - 
+    
   # For OpenWeatherAPI
    You’ll need to sign up for an API key on OpenWeatherMap and replace the placeholder api_key in the code.
   
@@ -59,10 +59,10 @@ The libraries required to be installed are:
 - pyttsx3==2.90
 - pvporcupine==1.11.0
 - requests==2.28.1
-- 
+  
 ## Note
 - make sure all the files are in the same folder, and I reccomend using a virtual environment.
-- 
+  
 ### This ensures that when others clone my repo, they can install all the necessary libraries.
 
 
