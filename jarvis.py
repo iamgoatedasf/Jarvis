@@ -85,7 +85,7 @@ class Jarvis(QWidget):
         # Init Porcupine wake word engine
         try:
             self.porcupine = pvporcupine.create(
-                access_key="5d+kOAsNnPmPQF4SnJHkLR8o95Qyq/dFbuSwvBgMATU0SOoBE6hpQw==",
+                access_key="Porcupine_key",
                 keywords=["jarvis"]
             )
             self.pa = pyaudio.PyAudio()
@@ -335,8 +335,8 @@ class Jarvis(QWidget):
         self.say("Sorry, I can only open sites and answer a few questions right now.")
 
     def weather(self):
-        api_key = "40a3ba15f8ffa5c6e86d69aa81306ab8"
-        city = "Addis Ababa"
+        api_key = "Weather_API_key"
+        city = "Current_Location"
         try:
             url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
             response = requests.get(url)
