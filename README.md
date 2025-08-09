@@ -53,16 +53,17 @@ The libraries required to be installed are:
   
 ## Additional Points:
 - PyQt5==5.15.6
-playsound==1.2.2
-pyaudio==0.2.11
-SpeechRecognition==3.8.1
-pyttsx3==2.90
-
+- playsound==1.2.2
+- pyaudio==0.2.11
+- SpeechRecognition==3.8.1
+- pyttsx3==2.90
+- pvporcupine==1.11.0
+- requests==2.28.1
+- 
 ## Note
 - make sure all the files are in the same folder, and I reccomend using a virtual environment.
-pvporcupine==1.11.0
-requests==2.28.1
-# This ensures that when others clone my repo, they can install all the necessary libraries.
+- 
+### This ensures that when others clone my repo, they can install all the necessary libraries.
 
 
 
