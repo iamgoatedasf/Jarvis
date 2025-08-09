@@ -62,8 +62,10 @@ The libraries required to be installed are:
   
 ## Note
 - make sure all the files are in the same folder, and I reccomend using a virtual environment.
-  
+
 ### This ensures that when others clone my repo, they can install all the necessary libraries.
+
+# Future advancements are coming
 
 
 
